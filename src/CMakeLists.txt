@@ -1,0 +1,11 @@
+add_executable(
+    snake_lang
+    main.cpp
+    Lexer.cpp
+    Parser.cpp
+        Parser.hpp
+    Token.cpp
+        Token.hpp
+    Optional.hpp
+        TokenType.hpp
+        TokenType.cpp)
